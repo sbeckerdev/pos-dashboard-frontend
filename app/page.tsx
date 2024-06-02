@@ -11,7 +11,7 @@
 export default function Home() {
   return (
     <div>
-      <h1>Main page</h1>
+      <h1 className="text-3xl font-bold underline text-fuchsia-800">Index</h1>
     </div>
   );
 }
