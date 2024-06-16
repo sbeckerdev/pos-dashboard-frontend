@@ -1,6 +1,6 @@
 /*
  1.	Author: Sergio Becker
- 2.	Description: Index page
+ 2.	Description: Sign Up page.
  3.	Version:
     a.	Beta: 0.9
     b.	Major:
@@ -8,11 +8,11 @@
     d.	Path:
 
  */
-export default function Home() {
+import SignUp from "@/components/Auth/SignUp";
+export default function Page() {
   return (
     <div>
-      <h1 className="text-3xl  m-5  underline text-red-800">Index</h1>
- 
+      <SignUp />
     </div>
   );
 }
